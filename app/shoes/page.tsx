@@ -23,7 +23,7 @@ const Shoes1 = () => {
             shoes === "shoesMale" ? "bg-blue-500 text-white" : "bg-gray-200"
           }`}
         >
-          Men's Shoes
+          Men&apos;s Shoes
         </button>
         <button
           onClick={() => setShoes("shoesFemale")}
@@ -31,7 +31,7 @@ const Shoes1 = () => {
             shoes === "shoesFemale" ? "bg-blue-500 text-white" : "bg-gray-200"
           }`}
         >
-          Women's Shoes
+          Women&apos;s Shoes
         </button>
       </div>
 
@@ -40,13 +40,13 @@ const Shoes1 = () => {
           <>
             <div>
               <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center md:text-left">
-                Women's Shoes
+                Women&apos;s Shoes
               </h2>
               <ShoesFemale />
             </div>
             <div>
               <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center md:text-left">
-                Men's Shoes
+                Men&apos;s Shoes
               </h2>
               <ShoesMale />
             </div>
@@ -55,7 +55,7 @@ const Shoes1 = () => {
         {shoes === "shoesMale" && (
           <div>
             <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center md:text-left">
-              Men's Shoes
+              Men&apos;s Shoes
             </h2>
             <ShoesMale />
           </div>
@@ -63,7 +63,7 @@ const Shoes1 = () => {
         {shoes === "shoesFemale" && (
           <div>
             <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center md:text-left">
-              Women's Shoes
+              Women&apos;s Shoes
             </h2>
             <ShoesFemale />
           </div>

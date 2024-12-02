@@ -32,11 +32,11 @@ const Nav = () => {
           <i className="bx bxs-t-shirt text-[#39659e]"></i>
         </li>
         <li className="flex items-center gap-2 text-lg font-semibold transition-all duration-200 ease-in hover:text-[#6a97d1] hover:no-underline">
-          <Link href="/men">Men's</Link>
-          <i className="bx bx-male text-[#39659e]"></i>
+          <Link href="/men">Men&apos;s</Link>
+          <i className="bx bx-male text-[#5f7a9e]"></i>
         </li>
         <li className="flex items-center gap-2 text-lg font-semibold transition-all duration-200 ease-in hover:text-[#6a97d1] hover:no-underline">
-          <Link href="/women">Women's</Link>
+          <Link href="/women">Women&apos;s</Link>
           <i className="bx bx-female text-[#39659e]"></i>
         </li>
         <li className="flex items-center gap-2 text-lg font-semibold transition-all duration-200 ease-in hover:text-[#6a97d1] hover:no-underline">

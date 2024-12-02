@@ -40,21 +40,21 @@ export default function Home() {
           className={`px-4 py-2 font-bold rounded-lg ${
             category === "mens" ? "bg-blue-500 text-white" : "bg-gray-200"
           }`}>
-          Men's
+          Men&apos;s
         </button>
         <button
           onClick={() => setCategory("womens")}
           className={`px-4 py-2 font-bold rounded-lg ${
             category === "womens" ? "bg-blue-500 text-white" : "bg-gray-200"
           }`}>
-          Women's
+          Women&apos;s
         </button>
         <button
           onClick={() => setCategory("shoesMale")}
           className={`px-4 py-2 font-bold rounded-lg ${
             category === "shoesMale" ? "bg-blue-500 text-white" : "bg-gray-200"
           }`}>
-          Men's Shoes
+          Men&apos;s Shoes
         </button>
         <button
           onClick={() => setCategory("shoesFemale")}
@@ -63,7 +63,7 @@ export default function Home() {
               ? "bg-blue-500 text-white"
               : "bg-gray-200"
           }`}>
-          Women's Shoes
+          Women&apos;s Shoes
         </button>
         <button
           onClick={() => setCategory("makeups")}
@@ -79,25 +79,25 @@ export default function Home() {
           <>
             <div>
               <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center md:text-left">
-                Men's Products
+                Men&apos;s Products
               </h2>
               <Mens />
             </div>
             <div>
               <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center md:text-left">
-                Women's Products
+                Women&apos;s Products
               </h2>
               <Womens />
             </div>
             <div>
               <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center md:text-left">
-                Men's Shoes
+                Men&apos;s Shoes
               </h2>
               <ShoesMale />
             </div>
             <div>
               <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center md:text-left">
-                Women's Shoes
+                Women&apos;s Shoes
               </h2>
               <ShoesFemale />
             </div>
@@ -113,7 +113,7 @@ export default function Home() {
         {category === "mens" && (
           <div>
             <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center md:text-left">
-              Men's Products
+              Men&apos;s Products
             </h2>
             <Mens />
           </div>
@@ -121,7 +121,7 @@ export default function Home() {
         {category === "womens" && (
           <div>
             <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center md:text-left">
-              Women's Products
+              Women&apos;s Products
             </h2>
             <Womens />
           </div>
@@ -129,7 +129,7 @@ export default function Home() {
         {category === "shoesMale" && (
           <div>
             <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center md:text-left">
-              Men's Shoes
+              Men&apos;s Shoes
             </h2>
             <ShoesMale />
           </div>
@@ -137,7 +137,7 @@ export default function Home() {
         {category === "shoesFemale" && (
           <div>
             <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center md:text-left">
-              Women's Shoes
+              Women&apos;s Shoes
             </h2>
             <ShoesFemale />
           </div>
