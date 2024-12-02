@@ -15,7 +15,7 @@ const ShoesFemale = () => {
           src: "/ShoesF-2.jpeg",
           title: "Normal Chappal",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+            "Lorem ipsum dolor, siit amet consectetur adipisicing elit.",
         },
         {
           src: "/ShoesF-3.jpeg",
