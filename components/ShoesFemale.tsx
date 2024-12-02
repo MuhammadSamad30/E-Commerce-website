@@ -6,24 +6,24 @@ const ShoesFemale = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 p-10">
       {[
         {
-          src: "/ShoesF-1.jpeg",
+          src: "/shoesF-1.jpeg",
           title: "Sneakers",
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
         },
         {
-          src: "/ShoesF-2.jpeg",
+          src: "/shoesF-2.jpeg",
           title: "Normal Chappal",
           description:
-            "Lorem ipsum dolor, siit amet consectetur adipisicing elit.",
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
         },
         {
-          src: "/ShoesF-3.jpeg",
+          src: "/shoesF-3.jpeg",
           title: "Premium Shoes",
           description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
         },
         {
-          src: "/ShoesF-4.jpeg",
+          src: "/shoesF-4.jpeg",
           title: "Casual Shoes",
           description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
         },
