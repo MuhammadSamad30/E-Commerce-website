@@ -10,7 +10,7 @@ const FloatingCart: React.FC = () => {
     <>
       <button
         onClick={() => setIsOpen((prev) => !prev)}
-        className="fixed bottom-4 right-4 bg-teal-500 text-white p-4 rounded-full shadow-lg hover:bg-teal-600 transition-all duration-300"
+        className="fixed bottom-4 right-4 bg-[#9380ad] text-white p-4 rounded-full shadow-lg hover:bg-teal-600 transition-all duration-300"
       >
         🛒 {cart.length}
       </button>
